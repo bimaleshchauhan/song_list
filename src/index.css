@@ -11,3 +11,78 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.songs {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.list div {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 15%;
+}
+.list {
+  display: flex;
+  justify-content: center;
+}
+.list .lyric {
+  width: 40%;
+}
+.add-btn {
+  text-align: right;
+  padding: 10px;
+}
+.btn input {
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.add-btn.btn input{
+    background: green;
+}
+.edit.btn input{
+  background: #bb8a00;
+}
+.delete.btn input{
+  background: #d8590e;
+}
+.popup {
+  position: absolute;
+  top: 50%;
+ 
+  z-index: 99;
+  left: 0;
+  right: 0;
+  width: 500px;
+  transform: translatey(-50%);
+  margin: auto;
+  border-radius: 5px;
+  background: #fff;
+  padding: 20px;
+}
+.overloap {
+  background: rgba(0,0,0,.5);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: fixed;
+}
+.text-center {
+  text-align: center !important;
+}
+.textbox input {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 6px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+.textbox {
+  text-align: left;
+}
